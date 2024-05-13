@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
+
+body {
+  font-family: 'Braah One';
+  background-color: #F0F0F0;
+}
+
+h1 {
+  background-color: olive;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  background-color: #eee;
+  width: 15%;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  padding: 10px;
+}
+
+#left-container {
+  left: 0px;
+  
+}
+
+#right-container {
+  right: 0px;
+}
+
+.plant-holder {
+  position: relative;
+  height: 13%;
+  left: -10px;
+}
+
+.plant {
+  position: absolute;
+  max-width: 150%;
+  max-height: 150%;
+  z-index: 2;
+}
+
+.jar-walls {
+  height: 80%;
+  width: 60%;
+  position: absolute;
+  border-radius: 1rem;
+  bottom: 0.5%;
+  left: 20%;
+  background: #d1e1df;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.jar-top {
+  position: absolute;
+  background: #d1e1df;
+  width: 50%;
+  height: 5%;
+  bottom: 80.5%;
+  left: 25%;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.jar-bottom {
+  position: absolute;
+  background: #d1e1df;
+  width: 50%;
+  height: 1%;
+  bottom: 0%;
+  left: 25%;
+  opacity: 0.7;
+}
+
+.dirt {
+  position: absolute;
+  width: 60%;
+  height: 5%;
+  background-color: #3a241d;
+  bottom: 1%;
+  left: 20%;
+  border-radius: 0 0 1rem 1rem;
+}
