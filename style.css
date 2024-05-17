@@ -84,3 +84,22 @@ h1 {
   left: 20%;
   border-radius: 0 0 1rem 1rem;
 }
+
+/***** ORIFICIOS EN JAR *****/
+.jar-glossy-short{
+  position: absolute;
+  width: 4%;
+  height: 5%;
+  background: red;
+  bottom: 42%;
+  left: 10%;
+
+}
+.jar-glossy-long{
+  position: absolute;
+  width: 4%;
+  height: 13%;
+  background: red;
+  bottom: 26%;
+  left: 10%;
+}
